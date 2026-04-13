@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhi Prakash Gole | Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #2b2d42; 
+            --accent-sage: #84a59d;  
+            --accent-gold: #d4af37;  
+            --bg-light: #f8f9fa;
+            --text-main: #333333;
+            --white: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--primary-dark);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 5px solid var(--accent-sage);
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            margin-top: 10px;
+            color: #bdc3c7;
+        }
+
+        header img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid var(--accent-sage);
+            margin-top: 25px;
+            object-fit: cover;
+            object-position: top;
+            background-color: var(--white);
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--primary-dark);
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            width: 60px;
+            height: 2px;
+            background: var(--accent-sage);
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: 0.3s ease;
+            border-top: 3px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-top: 3px solid var(--accent-sage);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .cert-card {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cert-header {
+            padding: 12px;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .cert-img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            background: #f9f9f9;
+            border-bottom: 1px solid #eee;
+        }
+
+        .cert-body {
+            padding: 15px;
+            flex-grow: 1;
+        }
+
+        .cert-body h4 {
+            margin: 0 0 5px 0;
+            font-size: 1rem;
+            color: var(--primary-dark);
+        }
+
+        .cert-body p {
+            margin: 0;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .wellness-highlight {
+            background: var(--accent-sage);
+            color: var(--white);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: var(--primary-dark);
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        .contact-link {
+            color: var(--white);
+            text-decoration: none;
+            border-bottom: 1px dashed var(--accent-sage);
+        }
+
+        ul { padding-left: 20px; margin: 0; }
+        li { margin-bottom: 8px; font-size: 0.85rem; }
+
+        .dash-img { width: 100%; height: auto; border-bottom: 1px solid #eee; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Siddhi Prakash Gole</h1>
+    <p>Pharmaceutical Professional | Healthcare Trainer | Business Operations</p>
+    <img src="siddhi.png" alt="Siddhi Prakash Gole">
+</header>
+
+<section>
+    <h2>Professional Profile</h2>
+    <div class="card" style="text-align: center;">
+        <p>Bachelor of Pharmacy graduate with professional experience in pharmaceutical services, healthcare training, and business operations management. Skilled in drug knowledge, pharmaceutical documentation, and staff training with a growing interest in digital tools and data analytics.</p>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Business Management Executive</h3>
+            <span style="font-size: 0.85rem; color: #7f8c8d;">Vie Sante Pvt. Ltd. | Thane, MH</span>
+            <ul>
+                <li>Manage pharmaceutical documentation and regulatory compliance.</li>
+                <li>Coordinate operational activities across healthcare units.</li>
+                <li>Maintain financial documentation and operational reports.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Healthcare Trainer</h3>
+            <span style="font-size: 0.85rem; color: #7f8c8d;">Wellness Healthcare | 2025</span>
+            <ul>
+                <li>Conducted product training on drug mechanisms and benefits.</li>
+                <li>Educated sales professionals on ethical sales practices.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Pharmacist</h3>
+            <span style="font-size: 0.85rem; color: #7f8c8d;">Apollo Pharmacy</span>
+            <ul>
+                <li>Dispensed medications ensuring safe practices.</li>
+                <li>Managed pharmacy inventory and stock monitoring.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Certifications & Research</h2>
+    <div class="cert-grid">
+        <div class="cert-card">
+            <div class="cert-header" style="background: var(--accent-gold);">AI Mastery</div>
+            <img src="certificate.png" class="cert-img" alt="AI Certificate">
+            <div class="cert-body">
+                <h4>AI Tools & ChatGPT Workshop</h4>
+                <p><b>be10x</b> | April 2026</p>
+            </div>
+        </div>
+
+        <div class="cert-card">
+            <div class="cert-header" style="background: var(--primary-dark);">Clinical Research</div>
+            <img src="clinical.png" class="cert-img" alt="Clinical Research Certificate">
+            <div class="cert-body">
+                <h4>Clinical Research Workshop</h4>
+                <p>Certification on industry standards and protocols.</p>
+            </div>
+        </div>
+
+        <div class="cert-card">
+            <div class="cert-header" style="background: #e74c3c;">Research Publication</div>
+            <img src="cancer.png" class="cert-img" alt="Cancer Tech Research">
+            <div class="cert-body">
+                <h4>Innovative Tech in Cancer </h4>
+                <p>Published in International Journal (IJRPR).</p>
+            </div>
+        </div>
+
+        <div class="cert-card">
+            <div class="cert-header" style="background: #e74c3c;">Research Publication</div>
+            <img src="ter.png" class="cert-img" alt="Teratogenicity Research">
+            <div class="cert-body">
+                <h4>Review on Teratogenicity </h4>
+                <p>Published in International Journal (IJRPR).</p>
+            </div>
+        </div>
+    </div>
+
+    <h2 style="margin-top: 60px;">Data Analytics Dashboards</h2>
+    <div class="grid">
+        <div class="card" style="padding:0; overflow:hidden;">
+            <div style="background: var(--accent-sage); color: white; padding: 15px;">
+                <h3 style="margin: 0; color: white;">Pharma Sales Performance</h3>
+            </div>
+            <img src="pharma sale.png" class="dash-img" alt="Sales Dashboard">
+        </div>
+
+        <div class="card" style="padding:0; overflow:hidden;">
+            <div style="background: var(--primary-dark); color: white; padding: 15px;">
+                <h3 style="margin: 0; color: white;">Revenue & Therapy Analysis</h3>
+            </div>
+            <img src="pharma sale2.png" class="dash-img" alt="Revenue Dashboard">
+        </div>
+    </div>
+
+    <div class="wellness-highlight">
+        <h3>Siddhi Wellness Studio 🌿</h3>
+        <p>Yoga | Naturopathy | Holistic Diet Guidance</p>
+        <p><i>"Heal Naturally, Live Fully"</i></p>
+    </div>
+</section>
+
+<footer>
+    <p>📧 <a href="mailto:siddhigole99@gmail.com" class="contact-link">siddhigole99@gmail.com</a> | 📞 <a href="tel:+918975654194" class="contact-link">+91 8975654194</a></p>
+    <p>© 2026 Siddhi Prakash Gole | Thane, Maharashtra</p>
+</footer>
+
+</body>
+</html>
